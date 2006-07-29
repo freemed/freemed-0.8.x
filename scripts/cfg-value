@@ -1,0 +1,21 @@
+#!/bin/bash
+#  cfg-value
+#  -- returns the config value from global.var.inc, for use with non-PHP
+#  -- languages. to be run as "scripts/cfg-value (value-to-return, no $)"
+#  -- (ex)  scripts/cfg-value packagename   would be "freemed"....
+
+KEY=$1
+
+if [ "${KEY}" = "" ]; then
+	echo "	syntax:	$0 key"
+	exit
+fi
+
+OURPATH="/usr/share/freemed"
+GLOBALVARFILE="lib/settings.php"
+
+#if [ -f $GLOBALVARFILE ]; then
+#  GLOBALVARFILE="../settings.php";
+#fi
+
+cat $OURPATH/$GLOBALVARFILE | grep "define ('$1" | awk -F\" '{ print $2 } ' | cat

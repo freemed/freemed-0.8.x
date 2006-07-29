@@ -1,0 +1,44 @@
+%%
+%%	$Id$
+%%	$Author$
+%%
+%%	FreeMED TeX Template
+%%	Letters
+%%
+
+\documentclass{article}
+
+% No normal header, footer, etc
+\usepackage[top=0.5in,left=0.7in,right=0.7in,bottom=1in,nohead,nofoot]{geometry}
+% Relative size package
+\usepackage{relsize}
+
+\begin{document}
+
+% Deal with the document "header". For now, we're just looking at a one-time
+% only display. FIXME: Migrate this to a header.
+\begin{center}
+	{\relsize{1}\textbf{**link:letterfrom:physician:phypracname**}} \\
+	{\relsize{-1}\textsl{**method:Physician:fullName:letterfrom**}} \\
+	\textsl{**link:letterfrom:physician:phyaddr1a**, **link:letterfrom:physician:phycitya**, **link:letterfrom:physician:phystatea** **link:letterfrom:physician:phyzipa** } \\
+	\textsl{phone **link:letterfrom:physician:phyphonea:phone** fax **link:letterfrom:physician:phyfaxa:phone**}
+\end{center}
+
+
+\begin{tabular}{ll}
+	NAME:	&	**method:Patient:fullName:letterpatient**	\\
+	DATE:	&	\today
+\end{tabular}
+
+**method:Physician:fullName:letterto**: \\
+
+\hfill \\
+
+**field:lettertext**
+
+\hfill \\
+
+Sincerely, \\
+**method:Physician:fullName:letterfrom**
+
+\end{document}

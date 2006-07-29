@@ -1,0 +1,14 @@
+09,Self Pay X12,1
+WC,Workers Comp X12,2
+MA,Medicare Part A X12,3
+MB,Medcare Part B  X12,4
+MC,Medicaid X12,5
+OF,Other Federal  X12,6
+CI,Comercial Insurance X12,7
+CH,CHAMPUS X12,8
+BL,Blue Cross Blue Shield X12,9
+HM,HMO  X12,10
+FI,FEP  X12,11
+10,Central Certification X12,12
+SA,Self Administered Group X12,13
+11,Other Non Federal Program X12,14

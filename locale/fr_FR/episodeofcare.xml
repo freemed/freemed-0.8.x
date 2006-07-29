@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<gettextXML>
+<information>
+
+	<!-- type = Project-Id-Version, data = PACKAGE VERSION -->
+
+	<!-- type = , data =  -->
+
+	<!-- type = POT-Creation-Date, data = 2005-07-13 13:26-0400 -->
+
+	<!-- type = PO-Revision-Date, data = 2005-10-16 09:37-0400 -->
+
+	<Translator>Ben Abdess &#x3C;ben_abdess@yahoo.fr&#x3E;</Translator>
+	<!-- type = Language-Team, data = LANGUAGE <LL@li.org> -->
+
+	<!-- type = MIME-Version, data = 1.0 -->
+
+	<!-- type = Content-Type, data = text/plain; charset=UTF-8 -->
+
+	<ContentTransferEncoding>8bit</ContentTransferEncoding>
+	<!-- type = Plural-Forms, data = nplurals=INTEGER; plural=EXPRESSION; -->
+
+	<!-- type = X-Generator, data = Pootle 0.6.3.20050712 -->
+</information>
+<translation>
+	<original>Abortions</original>
+	<translated>Avortements</translated>
+</translation>
+<translation>
+	<original>Auto Insurance</original>
+	<translated>Assurance automobile</translated>
+</translation>
+<translation>
+	<original>Automobile Related Information</original>
+	<translated>Informations relatives au v&#xC3;&#xA9;hicule</translated>
+</translation>
+<translation>
+	<original>Case Number</original>
+	<translated>Cas Num&#xC3;&#xA9;ro</translated>
+</translation>
+<translation>
+	<original>City, State/Prov, Postal Code</original>
+	<translated>Ville, D&#xC3;&#xA9;partement, Code postal</translated>
+</translation>
+<translation>
+	<original>Comment</original>
+	<translated>Commentaire</translated>
+</translation>
+<translation>
+	<original>Condition Related to</original>
+	<translated>Conditions relative &#xC3;&#xA0;</translated>
+</translation>
+<translation>
+	<original>Contact Name</original>
+	<translated>Nom du contact</translated>
+</translation>
+<translation>
+	<original>Contact Phone</original>
+	<translated>Num&#xC3;&#xA9;ro de t&#xC3;&#xA9;l&#xC3;&#xA9;phone du contact</translated>
+</translation>
+<translation>
+	<original>Country</original>
+	<translated>Pays</translated>
+</translation>
+<translation>
+	<original>Date of Confinement</original>
+	<translated>Date d'hospitalisation</translated>
+</translation>
+<translation>
+	<original>Date of Current Onset</original>
+	<translated>Date of Current Onset</translated>
+</translation>
+<translation>
+	<original>Date of First Occurance</original>
+	<translated>Date de premi&#xC3;&#xA8;re apparition</translated>
+</translation>
+<translation>
+	<original>Description</original>
+	<translated>Description</translated>
+</translation>
+<translation>
+	<original>Diagnosis Family</original>
+	<translated>Famille de diagnostic</translated>
+</translation>
+<translation>
+	<original>Disability Back to Work Date</original>
+	<translated>Arr&#xC3;&#xAA;t de travail jusqu'au</translated>
+</translation>
+<translation>
+	<original>Disability From Date</original>
+	<translated>Arr&#xC3;&#xAA;t de travail &#xC3;&#xA0; partir de</translated>
+</translation>
+<translation>
+	<original>Disability To Date</original>
+	<translated>Disability To Date</translated>
+</translation>
+<translation>
+	<original>Disability Type</original>
+	<translated>Type d'arr&#xC3;&#xAA;t</translated>
+</translation>
+<translation>
+	<original>Email Address</original>
+	<translated>Adresse Email</translated>
+</translation>
+<translation>
+	<original>Employment Related Information</original>
+	<translated>Informations relatives &#xC3;&#xA0; la profession</translated>
+</translation>
+<translation>
+	<original>Episode Type</original>
+	<translated>Type d'&#xC3;&#xA9;pisode</translated>
+</translation>
+<translation>
+	<original>Episode of Care</original>
+	<translated>Episode de soins</translated>
+</translation>
+<translation>
+	<original>Facility</original>
+	<translated>Installation</translated>
+</translation>
+<translation>
+	<original>File Number</original>
+	<translated>Num&#xC3;&#xA9;ro de fichier</translated>
+</translation>
+<translation>
+	<original>General Information</original>
+	<translated>Informations g&#xC3;&#xA9;n&#xC3;&#xA9;rales</translated>
+</translation>
+<translation>
+	<original>Gravida</original>
+	<translated>Gravit&#xC3;&#xA9;</translated>
+</translation>
+<translation>
+	<original>HCFA-1500 box 10</original>
+	<translated>HCFA-1500 box 10</translated>
+</translation>
+<translation>
+	<original>Hospital</original>
+	<translated>H&#xC3;&#xB4;pital</translated>
+</translation>
+<translation>
+	<original>Hospitial Admission Date</original>
+	<translated>Date d'admission &#xC3;&#xA0; l'h&#xC3;&#xB4;pital</translated>
+</translation>
+<translation>
+	<original>Hospitial Discharge Date</original>
+	<translated>Date de sortie d'h&#xC3;&#xB4;pital</translated>
+</translation>
+<translation>
+	<original>LT</original>
+	<translated>LT</translated>
+</translation>
+<translation>
+	<original>Last</original>
+	<translated>Dernier</translated>
+</translation>
+<translation>
+	<original>Last Menstrual Period</original>
+	<translated>Derni&#xC3;&#xA8;re p&#xC3;&#xA9;riode menstruelle</translated>
+</translation>
+<translation>
+	<original>Length of Cycle</original>
+	<translated>Longueur du cycle</translated>
+</translation>
+<translation>
+	<original>Miscarries</original>
+	<translated>Fausses couches</translated>
+</translation>
+<translation>
+	<original>Must select record to Modify</original>
+	<translated>Vous devez s&#xC3;&#xA9;lectionner un enregistrement &#xC3;&#xA0; modifier</translated>
+</translation>
+<translation>
+	<original>NO COMMENT</original>
+	<translated>Pas de COMMENTAIRE</translated>
+</translation>
+<translation>
+	<original>Name of Employer</original>
+	<translated>Nom de l'employeur</translated>
+</translation>
+<translation>
+	<original>No</original>
+	<translated>Non</translated>
+</translation>
+<translation>
+	<original>No Disability</original>
+	<translated>Pas d'emp&#xC3;&#xAA;chement</translated>
+</translation>
+<translation>
+	<original>Orig</original>
+	<translated>Orig</translated>
+</translation>
+<translation>
+	<original>Other Related Information</original>
+	<translated>Autres informations relatives</translated>
+</translation>
+<translation>
+	<original>Para</original>
+	<translated>Para</translated>
+</translation>
+<translation>
+	<original>Patient Images</original>
+	<translated>Photos du patients</translated>
+</translation>
+<translation>
+	<original>Permanent</original>
+	<translated>Permanent</translated>
+</translation>
+<translation>
+	<original>Pregnancy Related Information</original>
+	<translated>Informations relatives &#xC3;&#xA0; la grossesse</translated>
+</translation>
+<translation>
+	<original>Procedure</original>
+	<translated>Proc&#xC3;&#xA8;dure</translated>
+</translation>
+<translation>
+	<original>Referring Physician</original>
+	<translated>M&#xC3;&#xA9;decin r&#xC3;&#xA9;f&#xC3;&#xA9;rant</translated>
+</translation>
+<translation>
+	<original>Refresh</original>
+	<translated>Rafra&#xC3;&#xAE;chir</translated>
+</translation>
+<translation>
+	<original>Related to Automobile</original>
+	<translated>Concernant le v&#xC3;&#xA9;hicule</translated>
+</translation>
+<translation>
+	<original>Related to Employment</original>
+	<translated>Concernant l'emploi</translated>
+</translation>
+<translation>
+	<original>Related to Other Cause</original>
+	<translated>Concernant d'autres sujets</translated>
+</translation>
+<translation>
+	<original>Related to Pregnancy</original>
+	<translated>Concernant la grossesse</translated>
+</translation>
+<translation>
+	<original>ST</original>
+	<translated>ST</translated>
+</translation>
+<translation>
+	<original>Select Another</original>
+	<translated>S&#xC3;&#xA9;lectionner encore</translated>
+</translation>
+<translation>
+	<original>Starting Date</original>
+	<translated>Date de d&#xC3;&#xA9;but</translated>
+</translation>
+<translation>
+	<original>State/Province</original>
+	<translated>D&#xC3;&#xA9;partement</translated>
+</translation>
+<translation>
+	<original>Time of Accident</original>
+	<translated>Heure de l'accident</translated>
+</translation>
+<translation>
+	<original>Yes</original>
+	<translated>Oui</translated>
+</translation>
+<translation>
+	<original>You must specify an ID to view an Episode!</original>
+	<translated>Vous devez sp&#xC3;&#xA9;cifier un num&#xC3;&#xA9;ro ID pour voir un &#xC3;&#xA9;pisode</translated>
+</translation>
+<translation>
+	<original>acute</original>
+	<translated>aig&#xC3;&#xBC;</translated>
+</translation>
+<translation>
+	<original>chronic</original>
+	<translated>chronique</translated>
+</translation>
+<translation>
+	<original>chronic recurrent</original>
+	<translated>chronique et r&#xC3;&#xA9;current</translated>
+</translation>
+<translation>
+	<original>historical</original>
+	<translated>historique</translated>
+</translation>
+<translation>
+	<original>to</original>
+	<translated>&#xC3;&#xA0;</translated>
+</translation>
+
+</gettextXML>
+

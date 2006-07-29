@@ -1,0 +1,48 @@
+%%
+%%	$Id$
+%%	$Author$
+%%
+%%	FreeMED TeX Template
+%%	Patient Correspondence
+%%
+
+\documentclass{article}
+
+% No normal header, footer, etc
+\usepackage[top=0.5in,left=0.7in,right=0.7in,bottom=1.2in,nohead,nofoot]{geometry}
+% Relative size package
+\usepackage{relsize}
+
+\begin{document}
+
+% Deal with the document "header". For now, we're just looking at a one-time
+% only display. FIXME: Migrate this to a header.
+\begin{center}
+	{\relsize{1}\textbf{**link:letterfrom:physician:phypracname**}} \\
+%	{\relsize{-1}\textsl{**method:Physician:fullName:letterfrom**}} \\
+	\textsl{**link:letterfrom:physician:phyaddr1a**, **link:letterfrom:physician:phycitya**, **link:letterfrom:physician:phystatea** **link:letterfrom:physician:phyzipa** } \\
+	\textsl{phone **link:letterfrom:physician:phyphonea:phone** fax **link:letterfrom:physician:phyfaxa:phone**}
+\end{center}
+
+\flushleft
+
+\  \\
+
+\today \\
+
+\  \\
+
+**method:Patient:fullName:letterpatient**	\\
+**link:letterpatient:patient:ptaddr1**		\\
+**link:letterpatient:patient:ptcity**, **link:letterpatient:patient:ptstate** **link:letterpatient:patient:ptzip** \\
+
+\  \\
+
+**field:lettertext**
+
+\  \\
+
+**method:Physician:fullName:letterfrom** \\
+**link:letterfrom:physician:phypracname**
+
+\end{document}

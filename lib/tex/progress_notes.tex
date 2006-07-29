@@ -1,0 +1,106 @@
+%%
+%%	$Id$
+%%	$Author$
+%%
+%%	FreeMED TeX Template
+%%	Progress Notes
+%%
+
+\documentclass{article}
+
+% No normal header, footer, etc
+% Extra room on bottom and left for bindings, etc
+\usepackage[top=0.5in,left=1.2in,right=0.5in,bottom=1.2in,nohead,nofoot]{geometry}
+% Relative size package
+\usepackage{relsize}
+
+% Macro for progress-note type headers
+\newcommand{\sheading}[1]{\textbf{#1:}}
+
+\begin{document}
+
+% Deal with the document "header". For now, we're just looking at a one-time
+% only display. FIXME: Migrate this to a header.
+\begin{center}
+        {\relsize{1}\textbf{**link:pnotesdoc:physician:phypracname**}} \\
+        {\relsize{-1}\textsl{**method:Physician:fullName:pnotesdoc**}} \\
+        \textsl{**link:pnotesdoc:physician:phyaddr1a**, **link:pnotesdoc:physician:phycitya**, **link:pnotesdoc:physician:phystatea** **link:pnotesdoc:physician:phyzipa** } \\
+        \textsl{phone **link:pnotesdoc:physician:phyphonea:phone** fax **link:pnotesdoc:physician:phyfaxa:phone**}
+\end{center}
+
+% **method:Physician:fullName:pnotesdoc** \\
+\begin{tabular}{ll}
+NAME:	&	**method:Patient:fullName:pnotespat**	\\
+CHART:	&	**link:pnotespat:patient:ptid** 	\\
+DOB:	&	**link:pnotespat:patient:ptdob:date**	\\
+DATE:	&	**field:pnotesdt:date** \\
+PRINTED: &	\today \\
+\end{tabular}
+
+\begin{center}
+	{\relsize{1}\textbf{PATIENT PROGRESS NOTES}}
+\end{center}
+
+% Nice fixed block with \cr's in between them
+\begin{tabular}{ll}
+**if:exists:pnotesbmi**
+\sheading{BMI} & **field:pnotesbmi** \\
+**fi**
+**if:exists:pnotesheight**
+\sheading{Height} & **field:pnotesheight** \\
+**fi**
+**if:exists:pnotesweight**
+\sheading{Weight} & **field:pnotesweight** \\
+**fi**
+**if:exists:pnotessbp**
+\sheading{Blood Pressure} & **field:pnotessbp** over **field:pnotesdbp** \\
+**fi**
+**if:exists:pnotesheartrate**
+\sheading{Heart Rate} & **field:pnotesheartrate** \\
+**fi**
+**if:exists:pnotesresprate**
+\sheading{Respiratory Rate} & **field:pnotesresprate** \\
+**fi**
+**if:exists:pnotestemp**
+\sheading{Temperature} & **field:pnotestemp** \\
+**fi**
+\  &  \  
+\end{tabular} \\
+\par
+
+**if:lengthge:pnotes_S:10**
+\noindent\sheading{SUBJECTIVE} **field:pnotes_S**
+\par
+**fi**
+
+**if:lengthge:pnotes_O:10**
+\noindent\sheading{OBJECTIVE} **field:pnotes_O**
+\par
+**fi**
+
+**if:lengthge:pnotes_A:10**
+\noindent\sheading{ASSESSMENT} **field:pnotes_A**
+\par
+**fi**
+
+**if:lengthge:pnotes_P:10**
+\noindent\sheading{PLAN} **field:pnotes_P**
+\par
+**fi**
+
+**if:lengthge:pnotes_I:10**
+\noindent\sheading{INTERVAL} **field:pnotes_I**
+\par
+**fi**
+
+**if:lengthge:pnotes_E:10**
+\noindent\sheading{EDUCATION} **field:pnotes_E**
+\par
+**fi**
+
+**if:lengthge:pnotes_R:10**
+\noindent\sheading{RX} **field:pnotes_R**
+\par
+**fi**
+
+\end{document}
